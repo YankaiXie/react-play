@@ -7,6 +7,7 @@ import BurgerExample from './components/BurgerExample'
 import ExampleGallery from './components/ExampleGallery'
 import Adding from './components/Add'
 import Button from'./components/Button'
+import MyCard from'./components/Card'
 
 
 
@@ -22,6 +23,7 @@ import Button from'./components/Button'
         <Adding numberOne={1} numberTwo={2} />
         <Adding numberOne={3} numberTwo={4} />
         <Button color='pink'/>
+        <MyCard/>
       </div>
     );
   }
