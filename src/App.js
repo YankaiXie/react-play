@@ -8,6 +8,10 @@ import ExampleGallery from './components/ExampleGallery'
 import Adding from './components/Add'
 import Button from'./components/Button'
 import MyCard from'./components/Card'
+import TaskList from './components/TaskList'
+import Task from'./components/Task'
+import PostList from'./components/PostList'
+import MyGallery from './components/gallery'
 
 
 
@@ -24,8 +28,13 @@ import MyCard from'./components/Card'
         <Adding numberOne={3} numberTwo={4} />
         <Button color='pink'/>
         <MyCard/>
+        <TaskList/>
+        <Task title="TJLdjfl" completed={true}/>
+        <Task title="TJLdjfl" completed={false}/>
+        <PostList/>
+        <MyGallery/>
+
       </div>
-    );
-  }
+    );  }
 
 export default App;
